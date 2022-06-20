@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacao Orientada a Objetos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Loja Produtos 1.0</h1>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Produtos</h2>
+            <span>Lista de Produtos da loja</span>
+        </div>
+        <div class="card">
+            <div class="line-input">
+                <label for="">Produto:</label>
+                <input type="text" name="" id="produto" placeholder="Nome do produto">
+            </div>
+            <div class="line-input">
+                <label for="">Valor:</label>
+                <input type="number" name="" id="valor" placeholder="Valor do produto">
+            </div>
+            <div id="buttons-container">
+                <button id="btn-um">SALVAR</button>
+                <button>CANCELAR</button>
+            </div>
+        </div>
+        <div class="content">
+            <table>
+                <thead>
+                    <th>ID</th> <!--td = colunas da tabela-->
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th>Ações</th>
+                </thead>
+                <tbody id="tbody">
+                    <!--tr = linhas da tabela-->
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
